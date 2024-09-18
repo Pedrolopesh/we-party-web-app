@@ -2,5 +2,20 @@
     "Home": {
         "test": "Está é uma mensagem de teste",
         "test_Link": "link novo"
+    },
+    "login": {
+        "form_title": "Login",
+        "email_placeholder": "E-mail",
+        "password_placeholder": "password",
+        "remember_login": "Lembrar Login",
+        "forget_password": "Esqueci minha senha",
+        "submit": "entrar",
+        "dont_have_account": "Não tem conta?",
+        "signup_link": "Cadastre-se",
+        "free_message": "É de graça"
+    },
+    "banner_forms": {
+        "description": "Rede social perfeita para sua",
+        "party": "festa."
     }
 }

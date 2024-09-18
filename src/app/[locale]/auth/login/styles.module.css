@@ -1,0 +1,10 @@
+.containerLogin {
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .containerLogin {
+        flex-direction: column;
+    }
+}

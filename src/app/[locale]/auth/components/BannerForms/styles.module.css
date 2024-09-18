@@ -1,0 +1,32 @@
+.bgBanner {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 50px;
+    background: linear-gradient(135deg, rgba(252,162,89,0.5) 0%, rgba(255,98,159,0.5) 100%);
+}
+
+.bgBannerImg {
+    background-image: url('../../../../../assets/imgs/bg-objects.png');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgBannerImg h1 {
+    font-size: 3.5rem;
+}
+
+.bgBannerImg p {
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bgBannerImg {
+        height: 25vh;
+    }
+}
