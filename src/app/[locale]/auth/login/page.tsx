@@ -8,6 +8,7 @@ const Login = () => {
     // const t = useTranslations('login');
     return (
       <div className={styles.containerLogin}>
+
         <div className='w-full'>
           <BannerForms />
         </div>

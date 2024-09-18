@@ -4,6 +4,7 @@ import "./globals.css";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import Header from "./layout/header";
+import { Providers } from "./layout/providers";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,11 +21,13 @@ export default async function RootLayout({
     const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body className={`antialiased`}>
+    <html lang={locale} suppressHydrationWarning >
+      <body className={`antialiased bg-gray-50 dark:bg-slate-800`}>
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          {children}
+          <Providers>
+            <Header />
+            {children}
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>
