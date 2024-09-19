@@ -1,0 +1,9 @@
+.containerFormLogin {
+    width: 70%;
+}
+
+@media screen and (min-width: 1820px) {
+    .containerFormLogin {
+        width: 50%;
+    }
+}

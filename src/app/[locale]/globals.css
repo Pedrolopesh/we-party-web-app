@@ -32,7 +32,41 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="number"] {
-  padding: 0.5rem;
+  padding: 0.7rem;
   border: 1px solid #ccc;
-  border-radius: 0.25rem;
+  border-radius: 0.50rem;
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border: 1px solid #000;
+}
+
+input[type="checkbox"] {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.50rem;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.8s ease;
+}
+
+.primary-gradient {
+  transition: all 0.8s ease;
+  background: linear-gradient(90deg, #ff8a00 0%, #e52e71 100%);
+  color: #fff;
+}
+
+.primary-gradient:hover {
+  transition: all 0.8s ease;
+  background: linear-gradient(-90deg, #ff8a00 0%, #e52e71 100%);
+  color: #fff;
 }

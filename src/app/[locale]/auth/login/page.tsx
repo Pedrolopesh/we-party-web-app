@@ -13,7 +13,7 @@ const Login = () => {
           <BannerForms />
         </div>
 
-        <div className='w-full'>
+        <div className='w-full flex items-center justify-center'>
           <LoginForm />
         </div>
       </div>
