@@ -22,7 +22,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning >
-      <body className={`antialiased bg-gray-50 dark:bg-slate-800`}>
+      <body className={`antialiased bg-gray-50 dark:bg-slate-950`}>
         <NextIntlClientProvider messages={messages}>
           <Providers>
             <Header />

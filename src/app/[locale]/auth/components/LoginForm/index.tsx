@@ -25,7 +25,7 @@ const LoginForm = () => {
 
         {mounted && ( 'mounted' )} */}
         
-        <div className=''>
+        <div>
             <h2 className='text-[#0c0914] text-[32px] dark:invert'>{t('form_title')}</h2>
             
             <div className='block'>
