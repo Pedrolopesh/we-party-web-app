@@ -14,6 +14,18 @@
         "signup_link": "Sign up",
         "free_message": "It's free"
     },
+    "signup": {
+        "form_title": "Sign up",
+        "form_description": "Fill the fields below to start.",
+        "fullName_placeholder": "Full name",
+        "email_placeholder": "Email",
+        "password_placeholder": "Password",
+        "confirm_password_placeholder": "Confirm password",
+        "submit": "Sign up",
+        "already_have_account": "Already have an account?",
+        "login_link": "Login",
+        "click_to_sign": "Click to sign in"
+    },
     "banner_forms": {
         "description": "Rede social perfeita para sua",
         "party": "festa."

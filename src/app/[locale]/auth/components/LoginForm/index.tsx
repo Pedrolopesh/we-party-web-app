@@ -16,14 +16,14 @@ const LoginForm = () => {
 
     return (
       <div className={styles.containerFormLogin}>
-        {/* <button onClick={() => setTheme('dark')}>test dark</button>
+        <button onClick={() => setTheme('dark')}>test dark</button>
         <br />
         <br />
         <button onClick={() => setTheme('light')}>test light</button>
         <br />
         <br />
 
-        {mounted && ( 'mounted' )} */}
+        {mounted && ( 'mounted' )}
         
         <div>
             <h2 className='text-[#0c0914] text-[32px] dark:invert'>{t('form_title')}</h2>

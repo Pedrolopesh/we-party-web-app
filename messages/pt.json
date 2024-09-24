@@ -14,6 +14,18 @@
         "signup_link": "Cadastre-se",
         "free_message": "É de graça"
     },
+    "signup": {
+        "form_title": "Cadastre-se",
+        "form_description": "Preencha os dados abaixopara começar.",
+        "fullName_placeholder": "Nome completo",
+        "email_placeholder": "E-mail",
+        "password_placeholder": "Senha",
+        "confirm_password_placeholder": "Confirmar Senha",
+        "submit": "Cadastrar",
+        "already_have_account": "Já tem uma conta?",
+        "login_link": "Entrar",
+        "click_to_sign": "Clique para entrar"
+    },
     "banner_forms": {
         "description": "Rede social perfeita para sua",
         "party": "festa."
