@@ -2,7 +2,7 @@
 // // import {Link} from '@/i18n/routing';
 import BannerForms from '../components/BannerForms';
 import styles from './styles.module.css';
-import SignupForm from '../components/SignupForm';
+import SignupForm from '../components/SignupForm'; 
 
 const Signup = () => {
     // const t = useTranslations('login');
